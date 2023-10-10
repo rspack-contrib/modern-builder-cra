@@ -5,7 +5,7 @@
     "reset": "npx rimraf ./**/node_modules",
     "dev": "builder dev",
     "build": "builder build",
-    "serve": "builder serve"
+    "preview": "builder serve"
   },
   "dependencies": {
     "react": "18.2.0",
