@@ -4,5 +4,11 @@ import { defineConfig } from '@modern-js/builder-cli';
 export default defineConfig<'rspack'>({
   html: {
     template: './public/index.html',
-  }
+    disableHtmlFolder: true,
+  },
+  output: {
+    distPath: {
+      html: '',
+    },
+  },
 });
